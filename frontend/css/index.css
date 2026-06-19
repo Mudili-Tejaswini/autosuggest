@@ -31,3 +31,7 @@ h1{
     text-decoration: underline;
     border-radius: 5px; /* optional: rounded corners */
 }
+
+body {
+    margin: 0;
+}
