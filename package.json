@@ -1,0 +1,26 @@
+{
+  "name": "autosuggest",
+  "version": "1.0.0",
+  "description": "where are you \r i am here",
+  "homepage": "https://github.com/Mudili-Tejaswini/autosuggest#readme",
+  "bugs": {
+    "url": "https://github.com/Mudili-Tejaswini/autosuggest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mudili-Tejaswini/autosuggest.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "expresss": "^0.0.0"
+  },
+  "keywords": []
+}
