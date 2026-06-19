@@ -4,10 +4,10 @@ h1{
 #heading2{
     color: blue;
 }
-#heading{
+.heading{
     color: green;
 }
 
 .paragraph{ padding: 20px;
-    border: 20px solid black;
+    border: 2px solid black;
 }
