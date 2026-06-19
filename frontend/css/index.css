@@ -25,3 +25,14 @@ h1{
     border-inline: none;
 
 }
+.navbar a:hover{
+    color: rgb(160, 91, 135);
+    text-decoration: underline;
+    background-color: rgb(34, 118, 149);
+    color: rgb(41, 138, 165);
+    padding: 10px;
+    letter-spacing: 10px;
+    letter-spacing: center;
+    border-inline: none;
+
+}
