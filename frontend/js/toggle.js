@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+ddocument.addEventListener("DOMContentLoaded", () => {
   const toggleBtn = document.getElementById("toggleBtn");
   const genderText = document.getElementById("gender");
   const nameText = document.getElementById("name");
@@ -6,12 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   toggleBtn.addEventListener("click", () => {
     if (genderText.textContent.toLowerCase() === "male") {
-      // Switch to Female profile
       genderText.textContent = "Female";
       nameText.textContent = "Jane Doe";
-      avatarImg.src = "../images/jane.png"; // <-- make sure you have jane.png in your images folder
+      avatarImg.src = "../images/jane.png"; // make sure jane.png exists
     } else {
-      // Switch back to Male profile
       genderText.textContent = "Male";
       nameText.textContent = "John Doe";
       avatarImg.src = "../images/john.png";
