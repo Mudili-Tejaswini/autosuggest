@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const toggleBtn = document.getElementById("toggleBtn");
-  const genderText = document.querySelector(".card p");   // first <p> inside .card
-  const nameText = document.querySelector(".card h2");    // first <h2> inside .card
-  const avatarImg = document.querySelector(".card img");  // first <img> inside .card
+
+  // Select elements without IDs
+  const avatarImg = document.querySelector(".card img");
+  const nameText = document.querySelector(".card h2");
+  const genderText = document.querySelector(".card p");
 
   toggleBtn.addEventListener("click", () => {
     if (genderText.textContent.trim().toLowerCase() === "male") {
