@@ -37,16 +37,18 @@ body {
 }
 .card {
     width: 300px;
+    height: 300px; /* makes the card square */
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 0; /* no rounded corners */
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
 }
+
 .card img {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 0; /* square image */
     margin-bottom: 10px;
 }
