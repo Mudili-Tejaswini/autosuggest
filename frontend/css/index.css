@@ -14,22 +14,22 @@ h1{
 .navbar {
     background-color: rgb(210, 98, 98);
     padding: 10px;
-    text-align: center; /* centers the links */
-}
+    text-align: center; 
+    border: 2px solid black;}
 
 .navbar a {
     color: rgb(34, 118, 149);
     text-decoration: none;
     padding: 10px;
-    letter-spacing: 2px; /* spacing between letters */
+    letter-spacing: 2px; 
     font-size: 18px;
 }
 
 .navbar a:hover {
     background-color: rgb(34, 118, 149);
-    color: rgb(41, 138, 165); /* hover text color */
+    color: rgb(41, 138, 165); 
     text-decoration: underline;
-    border-radius: 5px; /* optional: rounded corners */
+    border-radius: 5px; 
 }
 
 body {
