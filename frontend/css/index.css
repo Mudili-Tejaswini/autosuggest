@@ -20,4 +20,8 @@ h1{
     color: rgb(34, 118, 149);
     text-decoration: none;
     padding: 10px;
+    letter-spacing: 10px;
+    letter-spacing: center;
+    border-inline: none;
+
 }
