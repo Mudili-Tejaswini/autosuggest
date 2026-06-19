@@ -4,18 +4,10 @@ h1{
 #heading2{
     color: blue;
 }
-#heading3{
+#heading{
     color: green;
 }
-#heading4{
-    color: yellow;
-}
-#heading5{
-    color: purple;
-}
-#heading6{
-    color: orange;
-}
-.paragraph{
-    border: 2px solid black;
+
+.paragraph{ padding: 20px;
+    border: 20px solid black;
 }
