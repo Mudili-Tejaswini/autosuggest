@@ -16,3 +16,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+//var curid =0;
+//function toggle() {
+  //curid = (curid + 1) % 2;
+  //toggle the rendered user details 
+  //image
+  //var avatar = user[curid]
+  //document.getElementById("avatar").src = avatar.image;
+  //to do :update for name and gender !
+//  document.getElementById("avatarname").innerText = avatar.name;
+  //document.getElementById("avatargender").innerText = avatar.gender;
