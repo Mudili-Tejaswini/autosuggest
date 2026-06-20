@@ -1,61 +1,46 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+.gear{
+    position:fixed;
+    top:10px;
+    left: 10px;
 }
 
-/* Top bar with gear left and pill text right */
-.ico {
-  display: flex;
-  justify-content: space-between; /* gear left, pill text right */
-  align-items: center;
-  background: #f5f5f5;
-  padding: 10px 20px;
-  border-bottom: 1px solid #ccc;
+.pill{
+    position:fixed;
+    top: 10px;
+    right:10px
 }
 
-.ico .gear {
-  font-size: 20px;
+.main-content{
+    text-align: center;
+}
+.logo{
+    color: #2992e2;
+    font-size: 36px;
+    font-weight: bold;
+}
+.search-box{
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    border: 1px solid #c1ab19cb;
+    border-radius: 20px;
+}
+.lens{
+    position: relative;
+    left: 30px;
+    transform: translateY(-40%);
+    font-size: 18px;
+    color: #888;
+    pointer-events: none;
+
 }
 
-.ico .pill {
-  font-size: 14px;
-  color: #333;
-}
-
-/* Center main content */
-.main-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;   /* centers horizontally */
-  justify-content: center;
-  text-align: center;
-  margin-top: 40px;
-}
-
-.main-content h1 {
-  margin: 20px 0 10px;
-  font-size: 28px;
-}
-
-.main-content p {
-  margin: 0 0 20px;
-  font-size: 16px;
-  color: #555;
-}
-
-/* Search bar styling */
-.search-bar {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.search-bar .search {
-  font-size: 18px;
-}
-
-#searchInput {
-  padding: 8px;
-  font-size: 16px;
-  width: 250px;
+.tag-line{
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+    transform: translateY(-50%);
 }
