@@ -36,8 +36,8 @@ body {
     margin: 0;
 }
 .card {
-    width: 400px;
-    height: 400px; 
+    width: 450px;
+    height: 450px; 
     border: 1px solid #ccc;
     border-radius: 0; 
     padding: 20px;
@@ -64,5 +64,5 @@ body {
 
 .card button:hover {
     background-color: rgb(41, 138, 165);
-    margin-top: px;
+    margin-top: 5px;
 }
