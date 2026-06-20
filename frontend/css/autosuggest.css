@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Top bar with gear left and pill text right */
+.ico {
+  display: flex;
+  justify-content: space-between; /* gear left, pill text right */
+  align-items: center;
+  background: #f5f5f5;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.ico .gear {
+  font-size: 20px;
+}
+
+.ico .pill {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Center main content */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers horizontally */
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-content h1 {
+  margin: 20px 0 10px;
+  font-size: 28px;
+}
+
+.main-content p {
+  margin: 0 0 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar .search {
+  font-size: 18px;
+}
+
+#searchInput {
+  padding: 8px;
+  font-size: 16px;
+  width: 250px;
+}
