@@ -1,7 +1,7 @@
 //https://autosuggest-backend.onrender.com/api/autosuggest?q=a&weighted=true&algorithm=trie&limit=8
 var API_URL="https://autosuggest-backend.onrender.com/api/autosuggest"
-var searchBar=document.getElementById("search-bar");
-var searchSuggestion=document.getElementById("search-suggestions");
+var searchBar=document.getElementById("search-input");
+var searchSuggestion=document.getElementById("suggestions");
 
 searchBar.addEventListener("input", function(){
     //get the data the user has typed
