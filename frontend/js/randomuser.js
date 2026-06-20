@@ -1,22 +1,27 @@
-function getRandomUser() {
-    // Implementation for fetching a random user
+document.addEventListener("DOMContentLoaded", () => {
+  const randomBtn = document.getElementById("randomBtn");
+  const avatarImg = document.getElementById("avatar");
+  const nameText = document.getElementById("name");
+  const genderText = document.getElementById("gender");
+
+  function getRandomUser() {
     fetch("https://randomuser.me/api/")
-        .then(function(res) {
-            return res.json();
-        })
-        .then(function(data) {
-            var user = data.results[0];
-            var fullname = user.name.title + " " + user.name.first + " " + user.name.last;
+      .then(res => res.json())
+      .then(data => {
+        const user = data.results[0];
+        const fullname = `${user.name.title} ${user.name.first} ${user.name.last}`;
 
-            document.getElementById("user-img").src=user.picture.large;
-            document.getElementById("user-name").innerText=fullname;
-            document.getElementById("user-gender").innerText=user.gender;
-        })
-            .catch(function(error) {
-                console.error("Error fetching random user:", error);
-            });
-}
+        avatarImg.src = user.picture.large;
+        nameText.textContent = fullname;
+        genderText.textContent = user.gender;
+      })
+      .catch(error => {
+        console.error("Error fetching random user:", error);
+      });
+  }
 
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("toggleBtn").addEventListener("click", getRandomUser);
+  randomBtn.addEventListener("click", getRandomUser);
+
+  // Optional: load a random user immediately on page load
+  getRandomUser();
 });
