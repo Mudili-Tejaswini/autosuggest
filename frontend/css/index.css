@@ -36,8 +36,8 @@ body {
     margin: 0;
 }
 .card {
-    width: 600px;
-    height: 600px; 
+    width: 400px;
+    height: 400px; 
     border: 1px solid #ccc;
     border-radius: 0; 
     padding: 20px;
@@ -47,8 +47,8 @@ body {
 }
 
 .card img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 0; 
     margin-bottom: 10px;
 }
